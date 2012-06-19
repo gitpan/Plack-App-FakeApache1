@@ -1,5 +1,8 @@
 Revision history for Plack-App-FakeApache1
 
+0.0.1_03  2012-06-19 16:01:37 Europe/London
+ - add missing constants to export list (doh!)
+
 v0.0.1_02 2012-06-19 15:46:57 Europe/London
  - Add constant: HTTP_METHOD_NOT_ALLOWED (405)
  - Fix response status with internal server error

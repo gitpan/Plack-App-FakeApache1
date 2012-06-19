@@ -4,7 +4,7 @@ Plack::App::FakeApache1 - Plack::App::FakeApache1 needs a more meaningful abstra
 
 # VERSION
 
-version v0.0.1\_02
+version 0.0.1\_03
 
 # AUTHOR
 
