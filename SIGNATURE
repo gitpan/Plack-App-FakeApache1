@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 87d36dfbc8db024a0151a4e45705957fe6985aea Changes
+SHA1 a03bfc3c074b3b08086d5980f8afdf8cf4a27cec LICENSE
+SHA1 e0cfbaee1b13c1fae17c69d0a8a180ee979f8e6e MANIFEST
+SHA1 5f9d2a8ef5c0e8952da24af93a14ab5eea0e9418 META.yml
+SHA1 5c9115179ba398353ba375ad025f6f9608a14a70 Makefile.PL
+SHA1 627ab267cce47b7aac0d4a14e6f032042bfdc9e3 README
+SHA1 f67ac0209f79c0ebeaec2048c9db9bd056148e85 README.mkdn
+SHA1 16831f63e4f55ed6172a76536206c5f8d793c64d dist.ini
+SHA1 edb36f610a315a9a5c0669f8733127cc0cdca29d lib/Plack/App/FakeApache1.pm
+SHA1 418fffce170cf0da129d2d7c845105044d918401 lib/Plack/App/FakeApache1/Constants.pm
+SHA1 d3470b08f2ee24d7928fb2fcc7e49eb011358b92 lib/Plack/App/FakeApache1/Dispatcher.pm
+SHA1 1c5fa3387c15bc9bfb0057d427c1d0c459756689 lib/Plack/App/FakeApache1/Handler.pm
+SHA1 a41104766c0de916a3ed4ad2fbdbb4a85fb07406 lib/Plack/App/FakeApache1/Request.pm
+SHA1 25e877bafd46fc04d1ba2289b18420f964da9b29 lib/Plack/App/FakeModPerl1.pm
+SHA1 525d2ca705c7458cbae06eb079a8138c01c2f4eb lib/Plack/App/FakeModPerl1/Dispatcher.pm
+SHA1 f6b656176dce55b4f324a2b72f08b3306672a7cc lib/Plack/App/FakeModPerl1/Server.pm
+SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
+SHA1 6ea81e3865946a14536f97ccc65fee4b218c8148 t/release-kwalitee.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+iD8DBQFP4JDqh4j7xTiFuxERAl0YAKCLJfD/hTyHQGCX/EvPxjr7yRaFUgCgs1zA
+V2XpdvHc4LdJkFCRPNsPZ+s=
+=pQmb
+-----END PGP SIGNATURE-----

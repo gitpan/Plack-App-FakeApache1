@@ -1,0 +1,19 @@
+---
+abstract: 'Plack::App::FakeApache1 needs a more meaningful abstract'
+author:
+  - 'Chisel <chisel@chizography.net>'
+build_requires:
+  Test::UseAllModules: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300016, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-App-FakeApache1
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Plack-App-FakeApache1
+  repository: git://github.com/chiselwright/plack-app-fakeapache1.git
+version: v0.0.1_02
