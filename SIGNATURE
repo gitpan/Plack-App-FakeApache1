@@ -14,22 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 df3c6668f54fdef7fa333b71058a454f1b7c5f61 Changes
+SHA1 cabae509e481b4aad9e2fd2a7f1edf8065009ca9 Changes
 SHA1 a03bfc3c074b3b08086d5980f8afdf8cf4a27cec LICENSE
 SHA1 e0cfbaee1b13c1fae17c69d0a8a180ee979f8e6e MANIFEST
-SHA1 4377527493658ee63a560404dc551496d5c5c8c3 META.yml
-SHA1 cd254bd4845b918b54b8051dca9dcf98dc7d4973 Makefile.PL
-SHA1 e3bdc08e4f55fbfee29a1eca45cc6feb299d00fd README
-SHA1 56b396b3b74fd04bf4300cfc31ecfaca28b5ed5e README.mkdn
-SHA1 16831f63e4f55ed6172a76536206c5f8d793c64d dist.ini
-SHA1 57b0af6cee10dc0677218b7ca3fcb72976d6b40a lib/Plack/App/FakeApache1.pm
-SHA1 c2ad24786025cd7403a4a774babda60e5a52d0fd lib/Plack/App/FakeApache1/Constants.pm
-SHA1 a0e15321b64f29e922fd4c63c83aec664bb1e837 lib/Plack/App/FakeApache1/Dispatcher.pm
-SHA1 c535892a99e72db38c58268d0d0545a3813b5da7 lib/Plack/App/FakeApache1/Handler.pm
-SHA1 919cd0135cb071128e59c82d4c9eed3fedd47c82 lib/Plack/App/FakeApache1/Request.pm
-SHA1 8b7321baec4ff7ceda15c413bd57129a672dcc0c lib/Plack/App/FakeModPerl1.pm
-SHA1 85350e53cc6692df77a72b617624db89a4b0801c lib/Plack/App/FakeModPerl1/Dispatcher.pm
-SHA1 d1884f3e259c774859ad0a07ed931fb9672c4c9f lib/Plack/App/FakeModPerl1/Server.pm
+SHA1 4a8132f4f32be2e6d438b8103709afb08ba28bc8 META.yml
+SHA1 9a72f59b7a043da3c4c3f3d52107c81a31ec3f97 Makefile.PL
+SHA1 3043483a805a5d5d51940f1410a90450654e587b README
+SHA1 9d5c33b1568e6287379b7dc1d3f2734bf0834bb8 README.mkdn
+SHA1 8f1cb5202bd4d2c0fb726d00c5197b2f09d4400c dist.ini
+SHA1 2e20da2ff38af90d2ebd65ce70d5774bbfdc3e13 lib/Plack/App/FakeApache1.pm
+SHA1 9f62d288495972d5a7b8af8bb7a1a39be50a9476 lib/Plack/App/FakeApache1/Constants.pm
+SHA1 e558d69a28305766efd6b6c56dd07e324b74656a lib/Plack/App/FakeApache1/Dispatcher.pm
+SHA1 32be59d9882fae53766c1abd56a9d8ef22297195 lib/Plack/App/FakeApache1/Handler.pm
+SHA1 d7d7baf8b5fb3138af2f038bb2e7d4775ae8bdcc lib/Plack/App/FakeApache1/Request.pm
+SHA1 caf791f005d2d151e10885a1dbb05dc512c67d13 lib/Plack/App/FakeModPerl1.pm
+SHA1 fba0ea50717f55ddc3f44131c0df455161a8ef47 lib/Plack/App/FakeModPerl1/Dispatcher.pm
+SHA1 7825615163ac34d05b5340617e135d196c660192 lib/Plack/App/FakeModPerl1/Server.pm
 SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
 SHA1 6ea81e3865946a14536f97ccc65fee4b218c8148 t/release-kwalitee.t
 SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
@@ -38,7 +38,7 @@ SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFP4JReh4j7xTiFuxERAjfMAJ4nKnZMbs414OX5dX2LLt3kl6mstQCeMPSH
-8ZZ20iZuCTQltw+9A5AYYXs=
-=qU/V
+iD8DBQFP4ZTeh4j7xTiFuxERAnDTAJ9XID8IImdOln90QnzajJTQQHv6EACfamNQ
+FtoQssDDdwWee0ANQtyaJzo=
+=uY8K
 -----END PGP SIGNATURE-----

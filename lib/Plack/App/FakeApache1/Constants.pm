@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Constants;
 {
-  $Plack::App::FakeApache1::Constants::VERSION = '0.0.1_03';
+  $Plack::App::FakeApache1::Constants::VERSION = '0.0.1_04';
 }
 {
   $Plack::App::FakeApache1::Constants::DIST = 'Plack-App-FakeApache1';
@@ -53,7 +53,7 @@ Plack::App::FakeApache1::Constants
 
 =head1 VERSION
 
-version 0.0.1_03
+version 0.0.1_04
 
 =head1 AUTHOR
 
