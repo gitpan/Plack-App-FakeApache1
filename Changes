@@ -1,5 +1,9 @@
 Revision history for Plack-App-FakeApache1
 
+0.0.1_05  2012-06-29 16:47:51 Europe/London
+ - add remaining 4xx status codes
+ - add HTTP_OK (200) status code
+
 0.0.1_04  2012-06-20 10:16:03 Europe/London
  - add [AutoPrereqs] plugin
 

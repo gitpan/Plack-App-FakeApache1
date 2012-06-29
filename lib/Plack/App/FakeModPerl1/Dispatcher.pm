@@ -1,6 +1,6 @@
 package Plack::App::FakeModPerl1::Dispatcher;
 {
-  $Plack::App::FakeModPerl1::Dispatcher::VERSION = '0.0.1_04';
+  $Plack::App::FakeModPerl1::Dispatcher::VERSION = '0.0.1_05';
 }
 {
   $Plack::App::FakeModPerl1::Dispatcher::DIST = 'Plack-App-FakeApache1';
@@ -238,7 +238,7 @@ Plack::App::FakeModPerl1::Dispatcher
 
 =head1 VERSION
 
-version 0.0.1_04
+version 0.0.1_05
 
 =begin explanation
 

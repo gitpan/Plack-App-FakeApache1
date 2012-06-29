@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Handler;
 {
-  $Plack::App::FakeApache1::Handler::VERSION = '0.0.1_04';
+  $Plack::App::FakeApache1::Handler::VERSION = '0.0.1_05';
 }
 {
   $Plack::App::FakeApache1::Handler::DIST = 'Plack-App-FakeApache1';
@@ -145,7 +145,7 @@ Plack::App::FakeApache1::Handler
 
 =head1 VERSION
 
-version 0.0.1_04
+version 0.0.1_05
 
 =head1 AUTHOR
 
