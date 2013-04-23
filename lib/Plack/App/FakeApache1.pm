@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1;
 {
-  $Plack::App::FakeApache1::VERSION = '0.0.1_05';
+  $Plack::App::FakeApache1::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeApache1::DIST = 'Plack-App-FakeApache1';
@@ -67,7 +67,6 @@ sub prepare_app {
 
 1;
 
-
 =pod
 
 =head1 NAME
@@ -76,7 +75,7 @@ Plack::App::FakeApache1 - Plack::App::FakeApache1 needs a more meaningful abstra
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 =head1 AUTHOR
 
@@ -90,7 +89,6 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
 
 __END__
 # vim: ts=8 sts=4 et sw=4 sr sta

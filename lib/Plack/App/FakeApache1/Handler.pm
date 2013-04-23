@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Handler;
 {
-  $Plack::App::FakeApache1::Handler::VERSION = '0.0.1_05';
+  $Plack::App::FakeApache1::Handler::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeApache1::Handler::DIST = 'Plack-App-FakeApache1';
@@ -137,6 +137,7 @@ sub _handle_response {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -145,7 +146,7 @@ Plack::App::FakeApache1::Handler
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 =head1 AUTHOR
 
@@ -159,4 +160,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

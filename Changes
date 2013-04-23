@@ -1,6 +1,9 @@
 Revision history for Plack-App-FakeApache1
 
-0.0.1_05  2012-06-29 16:47:51 Europe/London
+0.0.1     2013-04-23 11:08:23 Europe/London
+ - No functional changes; releasing as v0.0.1
+
+0.0.1_05 2012-06-26 10:51:14 Europe/London
  - add remaining 4xx status codes
  - add HTTP_OK (200) status code
 

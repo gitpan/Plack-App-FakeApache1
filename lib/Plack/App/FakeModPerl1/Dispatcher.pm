@@ -1,6 +1,6 @@
 package Plack::App::FakeModPerl1::Dispatcher;
 {
-  $Plack::App::FakeModPerl1::Dispatcher::VERSION = '0.0.1_05';
+  $Plack::App::FakeModPerl1::Dispatcher::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeModPerl1::Dispatcher::DIST = 'Plack-App-FakeApache1';
@@ -230,6 +230,7 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -238,7 +239,7 @@ Plack::App::FakeModPerl1::Dispatcher
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 =begin explanation
 
@@ -272,4 +273,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Constants;
 {
-  $Plack::App::FakeApache1::Constants::VERSION = '0.0.1_05';
+  $Plack::App::FakeApache1::Constants::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeApache1::Constants::DIST = 'Plack-App-FakeApache1';
@@ -113,6 +113,7 @@ sub REDIRECT    { HTTP_MOVED_TEMPORARILY; }
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -121,7 +122,7 @@ Plack::App::FakeApache1::Constants
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 =head1 AUTHOR
 
@@ -135,4 +136,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

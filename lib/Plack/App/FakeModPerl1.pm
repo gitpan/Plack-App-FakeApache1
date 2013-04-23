@@ -1,6 +1,6 @@
 package Plack::App::FakeModPerl1;
 {
-  $Plack::App::FakeModPerl1::VERSION = '0.0.1_05';
+  $Plack::App::FakeModPerl1::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeModPerl1::DIST = 'Plack-App-FakeApache1';
@@ -155,6 +155,7 @@ __PACKAGE__->meta->make_immutable( inline_constructor => 0 );
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -163,7 +164,7 @@ Plack::App::FakeModPerl1
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 L<https://github.com/pdonelan/webgui/blob/plebgui/lib/WebGUI/Session/Plack.pm>
 
@@ -179,4 +180,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

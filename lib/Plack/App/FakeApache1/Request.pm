@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Request;
 {
-  $Plack::App::FakeApache1::Request::VERSION = '0.0.1_05';
+  $Plack::App::FakeApache1::Request::VERSION = '0.0.1';
 }
 {
   $Plack::App::FakeApache1::Request::DIST = 'Plack-App-FakeApache1';
@@ -149,7 +149,7 @@ __PACKAGE__->meta->make_immutable;
 
 package Moose::APR::Table;
 {
-  $Moose::APR::Table::VERSION = '0.0.1_05';
+  $Moose::APR::Table::VERSION = '0.0.1';
 }
 {
   $Moose::APR::Table::DIST = 'Plack-App-FakeApache1';
@@ -165,6 +165,7 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -173,7 +174,7 @@ Plack::App::FakeApache1::Request
 
 =head1 VERSION
 
-version 0.0.1_05
+version 0.0.1
 
 =head1 AUTHOR
 
@@ -187,4 +188,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
