@@ -1,12 +1,14 @@
 package Plack::App::FakeApache1::Handler;
 {
-  $Plack::App::FakeApache1::Handler::VERSION = '0.0.1';
+  $Plack::App::FakeApache1::Handler::VERSION = '0.0.2';
 }
 {
   $Plack::App::FakeApache1::Handler::DIST = 'Plack-App-FakeApache1';
 }
 use strict;
 use warnings;
+
+use Carp;
 
 # borrowed heavily from
 #  http://cpansearch.perl.org/src/MIYAGAWA/Plack-0.9946/lib/Plack/Handler/Apache2.pm
@@ -37,6 +39,9 @@ sub load_app {
 
 sub call_app {
     my ($class, $r, $app) = @_;
+
+    Carp::croak('$app is undefined')
+        unless defined $app;
 
     $r->subprocess_env; # let Apache create %ENV for us :)
 
@@ -146,7 +151,7 @@ Plack::App::FakeApache1::Handler
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 AUTHOR
 

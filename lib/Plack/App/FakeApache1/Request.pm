@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Request;
 {
-  $Plack::App::FakeApache1::Request::VERSION = '0.0.1';
+  $Plack::App::FakeApache1::Request::VERSION = '0.0.2';
 }
 {
   $Plack::App::FakeApache1::Request::DIST = 'Plack-App-FakeApache1';
@@ -10,7 +10,7 @@ use Moose;
 use HTTP::Status qw(:is :constants);
 use Plack::Request;
 use Plack::Response;
-use Plack::App::FakeApache1::Dispatcher;
+use Plack::App::FakeModPerl1::Dispatcher;
 
 my $NS = "plack.app.fakeapache";
 
@@ -93,7 +93,7 @@ sub _build_plack_response { return Plack::Response->new( HTTP_OK, {}, [] ) }
 sub _build_headers_out     { return Moose::APR::Table->new; }
 sub _build_err_headers_out { return Moose::APR::Table->new; }
 sub _build__subprocess_env { return Moose::APR::Table->new; }
-sub _build_dispatcher      { return Plack::App::FakeApache1::Dispatcher->new; }
+sub _build_dispatcher      { return Plack::App::FakeModPerl1::Dispatcher->new; }
 
 # Plack methods
 sub finalize { 
@@ -149,7 +149,7 @@ __PACKAGE__->meta->make_immutable;
 
 package Moose::APR::Table;
 {
-  $Moose::APR::Table::VERSION = '0.0.1';
+  $Moose::APR::Table::VERSION = '0.0.2';
 }
 {
   $Moose::APR::Table::DIST = 'Plack-App-FakeApache1';
@@ -174,7 +174,7 @@ Plack::App::FakeApache1::Request
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 AUTHOR
 

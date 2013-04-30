@@ -1,11 +1,11 @@
 package Plack::App::FakeModPerl1::Server;
 {
-  $Plack::App::FakeModPerl1::Server::VERSION = '0.0.1';
+  $Plack::App::FakeModPerl1::Server::VERSION = '0.0.2';
 }
 {
   $Plack::App::FakeModPerl1::Server::DIST = 'Plack-App-FakeApache1';
 }
-use feature ':5.10';
+use 5.10.1;
 use Carp;
 
 sub new {
@@ -44,7 +44,7 @@ Plack::App::FakeModPerl1::Server
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 AUTHOR
 

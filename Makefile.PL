@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.010001;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -11,9 +11,7 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Plack::App::FakeApache1 needs a more meaningful abstract",
   "AUTHOR" => "Chisel <chisel\@chizography.net>",
-  "BUILD_REQUIRES" => {
-    "Test::UseAllModules" => 0
-  },
+  "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -24,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Apache::ConfigParser" => 0,
     "Carp" => 0,
-    "Data::Printer" => 0,
+    "Data::Dump" => 0,
     "HTTP::Status" => 0,
     "Moose" => 0,
     "Package::DeprecationManager" => 0,
@@ -38,17 +36,38 @@ my %WriteMakefileArgs = (
     "TryCatch" => 0,
     "URI::URL" => 0,
     "attributes" => 0,
-    "feature" => 0,
     "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.1",
+  "TEST_REQUIRES" => {
+    "Data::Printer" => 0,
+    "FindBin::libs" => 0,
+    "Plack::Test" => 0,
+    "Test::Deep" => 0,
+    "Test::Exception" => 0,
+    "Test::More" => 0,
+    "Test::UseAllModules" => 0
+  },
+  "VERSION" => "0.0.2",
   "test" => {
-    "TESTS" => "t/*.t"
+    "TESTS" => "t/*.t t/50-app/*.t"
   }
 );
 
+
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
+  my $tr = delete $WriteMakefileArgs{TEST_REQUIRES};
+  my $br = $WriteMakefileArgs{BUILD_REQUIRES};
+  for my $mod ( keys %$tr ) {
+    if ( exists $br->{$mod} ) {
+      $br->{$mod} = $tr->{$mod} if $tr->{$mod} > $br->{$mod};
+    }
+    else {
+      $br->{$mod} = $tr->{$mod};
+    }
+  }
+}
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
   my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};

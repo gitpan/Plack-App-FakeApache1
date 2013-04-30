@@ -1,11 +1,11 @@
 package Plack::App::FakeModPerl1;
 {
-  $Plack::App::FakeModPerl1::VERSION = '0.0.1';
+  $Plack::App::FakeModPerl1::VERSION = '0.0.2';
 }
 {
   $Plack::App::FakeModPerl1::DIST = 'Plack-App-FakeApache1';
 }
-use feature ':5.10';
+use 5.10.1;
 use Moose;
 
 use Carp;
@@ -164,7 +164,7 @@ Plack::App::FakeModPerl1
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 L<https://github.com/pdonelan/webgui/blob/plebgui/lib/WebGUI/Session/Plack.pm>
 
