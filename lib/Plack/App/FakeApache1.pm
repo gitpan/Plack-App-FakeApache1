@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1;
 {
-  $Plack::App::FakeApache1::VERSION = '0.0.2';
+  $Plack::App::FakeApache1::VERSION = '0.0.3';
 }
 {
   $Plack::App::FakeApache1::DIST = 'Plack-App-FakeApache1';
@@ -75,7 +75,7 @@ Plack::App::FakeApache1 - Plack::App::FakeApache1 needs a more meaningful abstra
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 AUTHOR
 

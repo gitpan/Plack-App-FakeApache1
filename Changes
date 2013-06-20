@@ -1,5 +1,9 @@
 Revision history for Plack-App-FakeApache1
 
+0.0.3     2013-06-20 12:02:04 Europe/London
+ - add missing 'use Plack::Util' (issue #2)
+ - Update bugtracker to point to github
+
 0.0.2     2013-04-30 17:52:14 Europe/London
 
  This is a clean-up-and-improve release. A number of issues arose in final
