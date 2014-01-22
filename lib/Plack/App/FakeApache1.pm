@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1;
 {
-  $Plack::App::FakeApache1::VERSION = '0.0.3';
+  $Plack::App::FakeApache1::VERSION = '0.0.4';
 }
 {
   $Plack::App::FakeApache1::DIST = 'Plack-App-FakeApache1';
@@ -69,13 +69,15 @@ sub prepare_app {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Plack::App::FakeApache1 - Plack::App::FakeApache1 needs a more meaningful abstract
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 AUTHOR
 

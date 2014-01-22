@@ -1,6 +1,6 @@
 package Plack::App::FakeModPerl1;
 {
-  $Plack::App::FakeModPerl1::VERSION = '0.0.3';
+  $Plack::App::FakeModPerl1::VERSION = '0.0.4';
 }
 {
   $Plack::App::FakeModPerl1::DIST = 'Plack-App-FakeApache1';
@@ -105,7 +105,7 @@ sub parsed_uri {
     return URI::URL->new(
           $self->{env}{'psgi.url_scheme'}
         . q{://}
-        . $self->{env}{HTTP_HOST}
+        . ($self->{env}{HTTP_HOST} || $self->{env}{SERVER_NAME} || '')
         . $self->{env}{REQUEST_URI}
     );
 }
@@ -159,13 +159,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Plack::App::FakeModPerl1
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 L<https://github.com/pdonelan/webgui/blob/plebgui/lib/WebGUI/Session/Plack.pm>
 

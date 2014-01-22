@@ -1,6 +1,6 @@
 package Plack::App::FakeApache1::Request;
 {
-  $Plack::App::FakeApache1::Request::VERSION = '0.0.3';
+  $Plack::App::FakeApache1::Request::VERSION = '0.0.4';
 }
 {
   $Plack::App::FakeApache1::Request::DIST = 'Plack-App-FakeApache1';
@@ -149,7 +149,7 @@ __PACKAGE__->meta->make_immutable;
 
 package Moose::APR::Table;
 {
-  $Moose::APR::Table::VERSION = '0.0.3';
+  $Moose::APR::Table::VERSION = '0.0.4';
 }
 {
   $Moose::APR::Table::DIST = 'Plack-App-FakeApache1';
@@ -168,13 +168,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Plack::App::FakeApache1::Request
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 AUTHOR
 
